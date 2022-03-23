@@ -7,4 +7,10 @@ if (firstAnswer ==='left') {
     let secondAnswer = window.prompt('You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?')
 
 }
-
+let firstAnswer = window.prompt('You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.')
+if (firstAnswer === 'stay'){
+    let secondAnswer = window.prompt('You live happily amongst the cats for the rest of your days.')
+}else if (firstAnswer === 'spread the word'){
+    let secondAnswer = window.prompt('After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonethless.')
+    
+}
