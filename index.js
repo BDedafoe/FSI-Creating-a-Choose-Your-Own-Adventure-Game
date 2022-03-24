@@ -30,7 +30,8 @@ let firstAnswer = window.prompt('Do you head left or right?')
          } else if (secondAnswer === 'away from the dragon')
         var thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it up. Which do you do?')   
     //goes with right 'past the dragon'
-            if (thirdAnswer === 'stay') {
+    var stay = new Boolean ('stay')        
+    if (thirdAnswer === 'stay') {
              var fourthAnswer = window.alert('You and the dragon have an uplifting converstation about local policies and become lifelong friends.')
                } else if (thirdAnswer === 'run')
              var fourthAnswer = window.alert('Quickly, you run back to the caves entrance. Sheepsih, you return home.')
