@@ -5,7 +5,6 @@ let firstAnswer = window.prompt('Do you head left or right?')
     } else if (firstAnswer ==='right')
     var secondAnswer = window.prompt('You come across a snoring dragon. On the other side of him, you see a shiny chest of treasure. Another path would lead you away from the dragon altogether. Which path do you take?')
 
-
     //goes with left
         if (secondAnswer === 'follow') {
         var thirdAnswer = window.prompt('You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.')
@@ -19,10 +18,9 @@ let firstAnswer = window.prompt('Do you head left or right?')
     //goes with left 'continue'
                  if (thirdAnswer === 'ladder') {
                   var fourthAnswer = window.alert('After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.')
-                  } else if (thirdAnswer === 'staircase')
+                  } else if (thirdAnswer === 'staircase') {
                   var fourthAnswer = window.alert('After ascending the staircase, you discover a shiny blue stone, which you take home and cherish forever.')
-
-
+                  }
 
     //goes with right
         if (secondAnswer === 'past the dragon') {
@@ -30,7 +28,7 @@ let firstAnswer = window.prompt('Do you head left or right?')
          } else if (secondAnswer === 'away from the dragon')
         var thirdAnswer = window.prompt('After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it up. Which do you do?')   
     //goes with right 'past the dragon'
-    var stay = new Boolean ('stay')        
+    let stay = new Boolean('stay')        
     if (thirdAnswer === 'stay') {
              var fourthAnswer = window.alert('You and the dragon have an uplifting converstation about local policies and become lifelong friends.')
                } else if (thirdAnswer === 'run')
